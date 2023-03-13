@@ -2555,6 +2555,8 @@
           }
         },
         "tagging" => %{"endpoints" => %{"us-gov-east-1" => %{}, "us-gov-west-1" => %{}}},
+        "ingest.timestream" => %{"endpoints" => %{"us-gov-west-1" => %{}}},
+        "query.timestream" => %{"endpoints" => %{"us-gov-west-1" => %{}}},
         "redshift" => %{"endpoints" => %{"us-gov-east-1" => %{}, "us-gov-west-1" => %{}}},
         "storagegateway" => %{"endpoints" => %{"us-gov-east-1" => %{}, "us-gov-west-1" => %{}}},
         "autoscaling" => %{
