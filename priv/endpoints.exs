@@ -2417,6 +2417,7 @@
         "us-gov-west-1" => %{"description" => "AWS GovCloud (US-West)"}
       },
       "services" => %{
+        "email" => %{"endpoints" => %{"us-gov-west-1" => %{}}},
         "elasticache" => %{"endpoints" => %{"us-gov-east-1" => %{}, "us-gov-west-1" => %{}}},
         "config" => %{"endpoints" => %{"us-gov-east-1" => %{}, "us-gov-west-1" => %{}}},
         "iam" => %{
